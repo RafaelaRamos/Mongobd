@@ -26,16 +26,7 @@ public class NewMain {
      */
     public static void main(String[] args) {
         
-        
-        //MongoConection connection = new MongoConection();
-       // MongoCollection colecao = connection.getCollection("Pessoa");
-        //PessoaDao dao = new PessoaDao();
-      //dao.salvar(new Pessoa("mae",54,"222.222.222-22"));
-       
-      //System.out.println(dao.buscarPorCpf("222.222.222-22"));
-       
-
-      VendaDao dao = new VendaDao();
+     VendaDao dao = new VendaDao();
      Produto produto1 = new Produto(1,"tv",30);
      Produto produto2 = new Produto(2,"fone de ouvido",30);
      Produto produto3 = new Produto(4,"lapis",2);

@@ -37,8 +37,7 @@ public class NewMain {
         Venda venda = new Venda(1, itens, LocalDateTime.now());
         //dao.salvar(venda);
         //dao.AdicionarItem(1, itemVenda);
-       
-       System.out.println(dao.buscarPorCodigo(1) );
+       // System.out.println(dao.buscarPorCodigo(1) );
 
     }
 
